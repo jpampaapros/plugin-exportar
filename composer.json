@@ -1,8 +1,12 @@
 {
     "require": {
-        "league/csv": "^9.8"
+        "league/csv": "9.8",
+        "phpoffice/phpspreadsheet": "1.29"
     },
     "config": {
-        "platform-check": false
+        "platform-check": false,
+        "platform": {
+            "php": "7.4.30"
+         }
     }
 }

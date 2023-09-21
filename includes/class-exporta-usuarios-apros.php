@@ -157,7 +157,8 @@ class Exporta_Usuarios_Apros {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_dashboard' );
-		$this->loader->add_action( 'wp_ajax_export_data_users', $plugin_admin, 'export_data_users' );
+		$this->loader->add_action( 'wp_ajax_export_data_reclamos_csv', $plugin_admin, 'export_data_reclamos_csv' );
+		$this->loader->add_action( 'wp_ajax_export_data_reclamos_excel', $plugin_admin, 'export_data_reclamos_excel' );
 	}
 
 	/**

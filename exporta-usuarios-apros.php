@@ -13,9 +13,9 @@
  * @package           Exporta_Usuarios_Apros
  *
  * @wordpress-plugin
- * Plugin Name:       Exportar usuarios
+ * Plugin Name:       Exportar reclamos
  * Plugin URI:        https://https://apros.global/
- * Description:       Exportar usuarios personalizado, hecho por Apros
+ * Description:       Exportar reclamos personalizado, hecho por Apros
  * Version:           1.0.0
  * Author:            Apros
  * Author URI:        https://https://apros.global/
